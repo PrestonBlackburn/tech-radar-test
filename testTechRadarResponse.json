@@ -166,6 +166,32 @@
             "date": "2025-01-06T00:00:00.000Z"
           }
         ],
+        "key": "airbyte",
+        "id": "airbyte",
+        "title": "Airbyte",
+        "quadrant": "frameworks"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
+            "ringId": "hold",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "coalesce",
+        "id": "coalesce",
+        "title": "Coalesce",
+        "quadrant": "frameworks"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
+            "ringId": "adopt",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
         "key": "data-vault",
         "id": "data-vault",
         "title": "Data Vault",
