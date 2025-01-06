@@ -5,44 +5,44 @@
           {
             "moved": 0,
             "ringId": "adopt",
-            "date": "2020-08-06T00:00:00.000Z",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+            "date": "2025-01-06T00:00:00.000Z",
+            "description": "Intial setup"
           }
         ],
-        "key": "javascript",
-        "id": "javascript",
-        "title": "JavaScript",
+        "key": "python",
+        "id": "python",
+        "title": "python",
         "quadrant": "languages",
         "links": [
           {
-            "url": "https://www.javascript.com/",
+            "url": "https://www.python.org/",
             "title": "Learn more"
           },
           {
-            "url": "https://www.typescriptlang.org/",
-            "title": "TypeScript"
+            "url": "https://microsoft.github.io/pyright/#/",
+            "title": "Type Checking"
           }
         ],
-        "description": "Excepteur **sint** occaecat *cupidatat* non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n```ts\nconst x = \"3\";\n```\n"
+        "description": "Python is the defacto language used for 7Rivers projects"
       },
       {
         "timeline": [
           {
             "moved": 1,
             "ringId": "adopt",
-            "date": "2020-08-06T00:00:00.000Z",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
+            "date": "2025-01-06T00:00:00.000Z",
+            "description": "Initial addition to radar"
           }
         ],
         "links": [
           {
-            "url": "https://webpack.js.org/",
+            "url": "https://streamlit.io/",
             "title": "Learn more"
           }
         ],
-        "key": "webpack",
-        "id": "webpack",
-        "title": "Webpack",
+        "key": "streamlit",
+        "id": "streamlit",
+        "title": "streamlit",
         "quadrant": "frameworks"
       },
       {
@@ -50,7 +50,7 @@
           {
             "moved": 0,
             "ringId": "adopt",
-            "date": "2020-08-06T00:00:00.000Z"
+            "date": "2025-01-06T00:00:00.000Z"
           }
         ],
         "links": [
@@ -68,8 +68,8 @@
         "timeline": [
           {
             "moved": 0,
-            "ringId": "adopt",
-            "date": "2020-08-06T00:00:00.000Z"
+            "ringId": "assess",
+            "date": "2025-01-06T00:00:00.000Z"
           }
         ],
         "key": "code-reviews",
@@ -81,13 +81,26 @@
         "timeline": [
           {
             "moved": 0,
-            "ringId": "assess",
-            "date": "2020-08-06T00:00:00.000Z"
+            "ringId": "adopt",
+            "date": "2025-01-06T00:00:00.000Z"
           }
         ],
-        "key": "mob-programming",
-        "id": "mob-programming",
-        "title": "Mob Programming",
+        "key": "vaultspeed",
+        "id": "vaultspeed",
+        "title": "VaultSpeed",
+        "quadrant": "frameworks"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
+            "ringId": "adopt",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "data-vault",
+        "id": "data-vault",
+        "title": "Data Vault",
         "quadrant": "process"
       },
       {
@@ -95,7 +108,7 @@
           {
             "moved": 0,
             "ringId": "adopt",
-            "date": "2020-08-06T00:00:00.000Z"
+            "date": "2025-01-06T00:00:00.000Z"
           }
         ],
         "key": "docs-like-code",
@@ -107,7 +120,7 @@
         "timeline": [
           {
             "ringId": "hold",
-            "date": "2020-08-06T00:00:00.000Z"
+            "date": "2025-01-06T00:00:00.000Z"
           }
         ],
         "key": "force-push",
@@ -119,7 +132,7 @@
         "timeline": [
           {
             "ringId": "adopt",
-            "date": "2020-08-06T00:00:00.000Z",
+            "date": "2025-01-06T00:00:00.000Z",
             "description": "long description"
           },
           {
@@ -163,25 +176,25 @@
         "id": "adopt",
         "name": "ADOPT",
         "color": "#5BA300",
-        "description": "Commodi accusantium culpa sed itaque excepturi rem eum nulla possimus."
+        "description": "Tech that is currently in use and approved for use"
       },
       {
         "id": "trial",
         "name": "TRIAL",
         "color": "#009EB0",
-        "description": "Recusandae possimus ipsum dolores."
+        "description": "Testing / eval of techs to adpot"
       },
       {
         "id": "assess",
         "name": "ASSESS",
         "color": "#C7BA00",
-        "description": "In asperiores repellat error recusandae et adipisci laborum porro."
+        "description": "Pre-trail assessment of adoption. No POCs yet."
       },
       {
         "id": "hold",
         "name": "HOLD",
         "color": "#E09B96",
-        "description": "Esse mollitia in."
+        "description": "Trial/adoption Paused"
       }
     ]
   }
