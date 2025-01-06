@@ -11,7 +11,7 @@
         ],
         "key": "python",
         "id": "python",
-        "title": "python",
+        "title": "Python",
         "quadrant": "languages",
         "links": [
           {
@@ -28,7 +28,49 @@
       {
         "timeline": [
           {
-            "moved": 1,
+            "moved": 0,
+            "ringId": "assess",
+            "date": "2025-01-06T00:00:00.000Z",
+            "description": "Intial setup"
+          }
+        ],
+        "key": "go",
+        "id": "go",
+        "title": "Go",
+        "quadrant": "languages",
+        "links": [
+          {
+            "url": "https://go.dev/",
+            "title": "Learn more"
+          }
+        ],
+        "description": "Go lang is an option for tools that need to be in complete customer ownership"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
+            "ringId": "adopt",
+            "date": "2025-01-06T00:00:00.000Z",
+            "description": "Intial setup"
+          }
+        ],
+        "key": "javascript",
+        "id": "javascript",
+        "title": "Javascript",
+        "quadrant": "languages",
+        "links": [
+          {
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "title": "Learn more"
+          }
+        ],
+        "description": "JS is sometimes necessary for frontend, but shouldn't be used in the backend (ex: NodeJS)"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
             "ringId": "adopt",
             "date": "2025-01-06T00:00:00.000Z",
             "description": "Initial addition to radar"
@@ -42,13 +84,13 @@
         ],
         "key": "streamlit",
         "id": "streamlit",
-        "title": "streamlit",
+        "title": "Streamlit",
         "quadrant": "frameworks"
       },
       {
         "timeline": [
           {
-            "moved": 0,
+            "moved": 1,
             "ringId": "adopt",
             "date": "2025-01-06T00:00:00.000Z"
           }
@@ -68,13 +110,26 @@
         "timeline": [
           {
             "moved": 0,
-            "ringId": "assess",
+            "ringId": "adopt",
             "date": "2025-01-06T00:00:00.000Z"
           }
         ],
         "key": "code-reviews",
         "id": "code-reviews",
         "title": "Code Reviews",
+        "quadrant": "process"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
+            "ringId": "assess",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "code-scanning",
+        "id": "code-scanning",
+        "title": "Code Scanning",
         "quadrant": "process"
       },
       {
@@ -88,6 +143,19 @@
         "key": "vaultspeed",
         "id": "vaultspeed",
         "title": "VaultSpeed",
+        "quadrant": "frameworks"
+      },
+      {
+        "timeline": [
+          {
+            "moved": 0,
+            "ringId": "adopt",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "wherescape",
+        "id": "wherescape",
+        "title": "Wherescape",
         "quadrant": "frameworks"
       },
       {
@@ -127,6 +195,66 @@
         "id": "force-push",
         "title": "Force push to master",
         "quadrant": "process"
+      },
+      {
+        "timeline": [
+          {
+            "ringId": "adopt",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "kubernetes",
+        "id": "kubernetes",
+        "title": "Kubernetes",
+        "quadrant": "infrastructure"
+      },
+      {
+        "timeline": [
+          {
+            "ringId": "trial",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "azure",
+        "id": "azure",
+        "title": "Azure",
+        "quadrant": "infrastructure"
+      },
+      {
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "gcp",
+        "id": "gcp",
+        "title": "GCP",
+        "quadrant": "infrastructure"
+      },
+      {
+        "timeline": [
+          {
+            "ringId": "hold",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "aws",
+        "id": "aws",
+        "title": "AWS",
+        "quadrant": "infrastructure"
+      },
+      {
+        "timeline": [
+          {
+            "ringId": "trail",
+            "date": "2025-01-06T00:00:00.000Z"
+          }
+        ],
+        "key": "argo-cd",
+        "id": "argo-cd",
+        "title": "Argo CD",
+        "quadrant": "infrastructure"
       },
       {
         "timeline": [
